@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(167, 164, 164);
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.section-heading {
+  width: 75%;
+}
+
+.nav-link {
+  display: flex;
+  color: navy;
+  font-size: 22px;
+  transform: all .5s ease;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
+}
+
+.btn {
+  padding: 13px 30px;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  display: flex;
+  transform: all .5s ease;
+}
+
+.outline-btn {
+  color: navy;
+  border: 1px solid navy;
+}
+
+.fill-btn {
+  background-color: navy;
+}
+
+.outline-btn:hover {
+  border: 3px solid blue;
+}
+
+.fill-btn:hover {
+  background-color: blue;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 1rem;
+  color: navy;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-blue {
+  color: blue;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 45px;
+  font-size: bold;
+  display: flex;
+  align-items: center;
+}
+
+.section-subheading {
+  font-size: 20px;
+}
+
+img {
+  height: 65px;
+  width: 70px;
+  padding: 1rem;
+}
